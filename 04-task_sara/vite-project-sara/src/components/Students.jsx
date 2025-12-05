@@ -30,8 +30,8 @@ export const Students = ({ student, onChangeStatus }) => {
   };
 
   return (
-    <div className="rounded-lg shadow-lg m-4 bg-white">
-      <div className="flex items-center gap-4 p-3">
+    <div className="rounded-lg shadow-lg m-3 bg-white">
+      <div className="flex items-center gap-4 p-2">
         <img
           className="w-14 h-14 rounded-full object-cover"
           alt={`Avatar of ${name}`}
